@@ -122,7 +122,7 @@ import (
     printAll(v3,2015)
 
 //lazy so just re-use the analyse fx
-    fmt.Println("2014年 關鍵字 Top",topKWord)
+    fmt.Println("2013年 關鍵字 Top",topKWord)
     printTopK(analyse.ExtractTags(string(data2013), topKWord),v1,topKWord)
     fmt.Println("2014年 關鍵字 Top",topKWord)
     printTopK(analyse.ExtractTags(string(data2014), topKWord),v1,topKWord)
